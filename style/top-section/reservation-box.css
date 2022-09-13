@@ -48,7 +48,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url(static/logo/logo-black-and-white.jpeg);
+    background-image: url(../../static/logo/logo-black-and-white.jpeg);
     background-position: center;
     background-size: contain;
 }
