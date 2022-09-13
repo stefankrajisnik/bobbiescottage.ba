@@ -1,0 +1,11 @@
+@import "base/colors.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+@import "top-section/section.css";
+@import "top-section/header.css";
+@import "top-section/slide-wrapper.css";
+@import "top-section/reservation-box.css";
+@import "middle-section/middle-section.css"
