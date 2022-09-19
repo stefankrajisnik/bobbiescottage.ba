@@ -6,19 +6,22 @@
 
 .single-slide-wrapper {
     position: relative;
-    width: 100%;
     height: 50%;
+    width: 100%;
 }
 
 .single-slide {
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
-    background-image: url(../../static/images/fire-pit.jpg);
+    /* background-color: rgb(0, 0, 0); */
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     position: absolute;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.single-slide.show {
+    opacity: 1;
 }
 
 .single-slide-wrapper i {
@@ -36,6 +39,16 @@
     color: rgb(255, 255, 255);
     opacity: 0.3;
     transition: opacity 0.3s ease;
+}
+
+.slide-one {
+    background-image: url(../../static/images/fire-pit.jpg);
+}
+.slide-two {
+    background-image: url(../../static/images/bobbie.jpg);
+}
+.slide-three {
+    background-image: url(../../static/images/306726017_606303711241264_5128755181197763427_n.jpg);
 }
 
 i:hover {
