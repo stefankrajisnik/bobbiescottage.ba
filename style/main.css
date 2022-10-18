@@ -8,4 +8,5 @@
 @import "top-section/header.css";
 @import "top-section/slide-wrapper.css";
 @import "top-section/reservation-box.css";
-@import "middle-section/middle-section.css"
+@import "middle-section/middle-section.css";
+@import "top-section/breakpoint.css";
