@@ -3,6 +3,10 @@
     .menu-bar > ul > li {
         margin-left: 0;
     }
+
+    .menu-item {
+        min-width: 100px;
+    }
 }
 
 @media only screen and (max-width:940px) {

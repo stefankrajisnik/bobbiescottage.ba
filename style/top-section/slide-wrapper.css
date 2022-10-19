@@ -41,16 +41,6 @@
     transition: opacity 0.3s ease;
 }
 
-.slide-one {
-    background-image: url(../../static/images/fire-pit.jpg);
-}
-.slide-two {
-    background-image: url(../../static/images/bobbie.jpg);
-}
-.slide-three {
-    background-image: url(../../static/images/306726017_606303711241264_5128755181197763427_n.jpg);
-}
-
 i:hover {
     cursor: pointer;
     opacity: 0.6;
