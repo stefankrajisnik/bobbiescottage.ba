@@ -5,20 +5,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const slides = [
         {
             imagePath: "/static/images/fire-pit.jpg",
+            smallInBig: "Bobbie's Cottage",
+            bigText: "Enjoy at the <br> wooden house",
+            smallText: "For nature lovers, enjoyment and active vacation. <br> Let's see more about us . . ."
+        },
+        {
+            imagePath: "/static/images/romanija.jpeg ",
             smallInBig: "ROMANIJA",
-            bigText: "go out to the wild and wind",
+            bigText: "go out <br> to the  wild and wind",
             smallText: "Romanija is a mountain that is widely known for its clean air due to the large coverage of pine forest."
         },
         {
-            imagePath: "/static/images/bobbie.jpg",
-            smallInBig: "Bobbie's Cottage",
-            bigText: "Enjoy at the wooden house",
-            smallText: "Za ljubitelje prirode, uživanje i aktivan odmor."
-        },
-        {
-            imagePath: "/static/images/306726017_606303711241264_5128755181197763427_n.jpg",
+            imagePath: "/static/images/activities.jpeg",
             smallInBig: "ACTIVITIES",
-            bigText: "Enjoy at the the activities on fresh air",
+            bigText: "Enjoy <br> at the the activities on fresh air",
             smallText: "You have to reward yourself and enjoy at the various activities in nature"
         }
     ];
@@ -86,9 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const smallText = document.querySelector('.small-text');
 
         img.style.backgroundImage = `url(${slide.imagePath})`;
-        smallInBigText.innerText = slide.smallInBig;
-        bigText.innerText = slide.bigText;
-        smallText.innerText = slide.smallText;
+        smallInBigText.innerHTML = slide.smallInBig;
+        bigText.innerHTML = slide.bigText;
+        smallText.innerHTML = slide.smallText;
     }
 
     loadSlide(slides[0]);
