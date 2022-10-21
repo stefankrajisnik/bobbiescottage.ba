@@ -135,12 +135,12 @@ input::-webkit-inner-spin-button {
 }
 
 .check-button {
-    display: inline-block;
+    display: flex;
+justify-content: center;
     background-color: var(--green-text);
     color: white;
     outline: none;
     border: none;
-    text-align: center;
     transition: transform 0.1s ease-in-out;
     
 
